@@ -1,6 +1,6 @@
 # Promise
 
-> Promise with props and all
+> Promise with props() and all()
 
 ## Install
 

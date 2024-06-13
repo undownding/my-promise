@@ -1,11 +1,12 @@
 {
-  "name": "promise",
-  "private": true,
+  "name": "@undownding/promise",
   "version": "1.0.0",
+  "description": "Promise with props() and all()",
+  "private": false,
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/undownding/my-promise.git"
+    "url": "ssh://git@github.com:undownding/my-promise.git"
   },
   "homepage": "https://github.com/undownding/my-promise#readme",
   "scripts": {
@@ -14,6 +15,7 @@
     "build": "vite build",
     "test": "vitest --run"
   },
+  "files": ["dist"],
   "devDependencies": {
     "@types/node": "^20.14.2",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
