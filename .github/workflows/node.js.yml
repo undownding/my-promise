@@ -21,6 +21,6 @@ jobs:
       with:
         node-version-file: '.nvmrc'
         cache: 'npm'
-    - run: yarn install --frozen-lockfile
+    - run: yarn set version berry && yarn install --frozen-lockfile
     # - run: yarn build
     - run: yarn test
